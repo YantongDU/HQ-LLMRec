@@ -1,2 +1,2 @@
-# HQ-LLMRec
-The code of the paper: “High-Quality Data Augmentation with Large Language Models for User Cold-Start Recommendations”
+# PADMA
+The code of the paper: “Preference-Aligned and Downstream-Model-Aware Data Augmentation with LLMs for User Cold-Start Recommendations”
