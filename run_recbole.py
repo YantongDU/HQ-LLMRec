@@ -15,7 +15,7 @@ if __name__ == "__main__":
     parser = argparse.ArgumentParser()
     # parser.add_argument("--model", "-m", type=str, default="LightGCN", help="name of models")
     # parser.add_argument("--model", "-m", type=str, default="BERT4Rec", help="name of models")
-    parser.add_argument("--model", "-m", type=str, default="HQLLM", help="name of models")
+    parser.add_argument("--model", "-m", type=str, default="PADMA", help="name of models")
     parser.add_argument(
         # "--dataset", "-d", type=str, default="ml-1m", help="name of datasets"
         # "--dataset", "-d", type=str, default="book-crossing", help="name of datasets"
