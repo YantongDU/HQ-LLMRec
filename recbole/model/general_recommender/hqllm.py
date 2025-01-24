@@ -10,12 +10,12 @@ from recbole.model.loss import BPRLoss
 from recbole.utils import InputType
 
 
-class HQLLM(GeneralRecommender):
+class PADMA(GeneralRecommender):
 
     input_type = InputType.PAIRWISE
 
     def __init__(self, config, dataset):
-        super(HQLLM, self).__init__(config, dataset)
+        super(PADMA, self).__init__(config, dataset)
 
         # load parameters info
         self.embedding_size = config["embedding_size"]
