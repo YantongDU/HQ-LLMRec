@@ -1,2 +1,2 @@
-# PADMA
-The code of the paper: “Preference-Aligned and Downstream-Model-Aware Data Augmentation with LLMs for User Cold-Start Recommendations”
+# PAnDA
+The code of the paper: “PAnDA: Combating Negative Augmentation via Large Language Models for User Cold-Start Recommendations”
