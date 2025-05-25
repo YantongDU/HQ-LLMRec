@@ -9,10 +9,10 @@ import transformers
 
 from transformers import AutoModelForCausalLM, LlamaTokenizer
 
-file_path = "/home/dyt/coldstart/RecBole/"
-dataset_path = "/home/dyt/coldstart/RecBole/dataset/ml-100k/"
-# model_dir = "/home/dyt/coldstart/llama/llama-2-7b-chat-hf"
-model_dir = "/home/dyt/coldstart/Meta-Llama-3-8B-Instruct"
+file_path = "/home/xxx/coldstart/RecBole/"
+dataset_path = "/home/xxx/coldstart/RecBole/dataset/ml-100k/"
+# model_dir = "/home/xxx/coldstart/llama/llama-2-7b-chat-hf"
+model_dir = "/home/xxx/coldstart/Meta-Llama-3-8B-Instruct"
 
 torch.set_default_tensor_type(torch.cuda.HalfTensor)
 
@@ -324,8 +324,8 @@ interactions = user_interactions[['user_id:token', 'item_id:token', 'rating:floa
 
 grouped = interactions.groupby('uid').apply(lambda x: [x['iid'].tolist(), x['rating'].tolist()]).to_dict()
 
-file_name = '/home/dyt/coldstart/RecBole/ml_100k_augmented_inter_p1_n1.txt'
-error_name = '/home/dyt/coldstart/RecBole/ml_100k_error.txt'
+file_name = '/home/xxx/coldstart/RecBole/ml_100k_augmented_inter_p1_n1.txt'
+error_name = '/home/xxx/coldstart/RecBole/ml_100k_error.txt'
 
 rst_dict = {}
 
